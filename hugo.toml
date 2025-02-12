@@ -1,0 +1,18 @@
+baseURL = 'https://github.com/kamx44/myblog.git'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ananke"
+
+[params]
+  author = "Kamil J"
+  description = "A personal blog about my learning journey."
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
